@@ -25,11 +25,11 @@ brwser)
 
 ## Standard Apps  
 
-- [google-chrome](goggle.com) Google Chrome≈
-- dropbox
-- slack
-- zoom
-- microsoft-office
+- [google-chrome](goggle.com) Google Chrome
+- [dropbox](dropbox.com) Dropbox
+- [slack](slack.com) Slack
+- [zoom](zoom.com) Zoom
+- [microsoft-office](office365.com) Office
 - draw.io
 - transmission
 - vlc
@@ -38,7 +38,7 @@ brwser)
 - nmap
 - barrier
 - speedtest-cli
-- cask
+- cask 
 - graphviz
 - wifi-password
 
