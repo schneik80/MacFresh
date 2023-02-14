@@ -72,7 +72,8 @@ MyAPPS=(
     speedtest-cli
     cask
     graphviz
-    libdvdcss
+    wifi-password
+
 )
 echo "Installing office Apps..."
 brew install ${MyAPPS[@]}
