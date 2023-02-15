@@ -30,9 +30,9 @@ brwser)
 - [slack](slack.com) Slack
 - [zoom](zoom.com) Zoom
 - [microsoft-office](office365.com) Office
-- draw.io
-- transmission
-- vlc
+- [draw.io](draw.io) Diagramming
+- [transmission](https://transmissionbt.com) Torrent Client]
+- [vlc](vlc.com) VLC Media Player
 - discord
 - lastpass-cli
 - nmap
