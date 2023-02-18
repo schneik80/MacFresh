@@ -9,14 +9,14 @@ Install script to setup common software and settings
 - [git-flow](https://formulae.brew.sh/formula/git-flow) Git tools for Flow workflows
 - [git-extras](https://formulae.brew.sh/formula/git-extras) Extra tools for Git
 - [grip](https://formulae.brew.sh/formula/grip) Open git README.md in a browser (Use with -b option to auto open
-  brwser)
+  browser)
 - [visual-studio-code](https://formulae.brew.sh/formula/visual-studio-code) VSCode IDE and test editor
-- [python3](https://formulae.brew.sh/formula/python) Pyhton 3
+- [python3](https://formulae.brew.sh/formula/python) Python 3
 - [pyenv](https://formulae.brew.sh/formula/pyenv) Python environment manager
-- [iterm2](https://formulae.brew.sh/formula/iterm2) Terminal replacement with beter ASCII character display
+- [iterm2](https://formulae.brew.sh/formula/iterm2) Terminal replacement with better ASCII character display
 - [wget](https://formulae.brew.sh/formula/wget) Tools to get stuff
 - [node](https://formulae.brew.sh/formula/node) Node Development tools
-- [npm](https://formulae.brew.sh/formula/npm) Packagmen managment
+- [npm](https://formulae.brew.sh/formula/npm) Package management
 
 ## Standard Apps
 
