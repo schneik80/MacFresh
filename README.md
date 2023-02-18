@@ -48,6 +48,7 @@ Install script to setup common software and settings
 - [tree](https://formulae.brew.sh/formula/tree) : Visualize filesystem hierarchy
 - [ndcu](https://formulae.brew.sh/formula/ndcu) : Disk usage reports and large file navigation
 - [lnav](https://formulae.brew.sh/formula/lnav) : Log file navigation
+- [dozer](https://formulae.brew.sh/formula/dozer) : MAC OS menubar manager
 - [neofetch](https://formulae.brew.sh/formula/neofetch) : System Info
 
 ## Mac App Store Apps

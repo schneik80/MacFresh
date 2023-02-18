@@ -83,6 +83,7 @@ MyAPPS=(
     tree
     ncdu
     lnav
+    dozer
     neofetch
 )
 
