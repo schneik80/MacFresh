@@ -1,48 +1,49 @@
 # MacFresh
+
 Install script to setup common software and settings
 
-## Dev Apps  
+## Dev Apps
 
-- [git](https://formulae.brew.sh/formula/git) Git command line 
-- [gh](https://formulae.brew.sh/formula/gh)  GitHub command line 
-- [git-flow](https://formulae.brew.sh/formula/git-flow) Git tools for Flow workflows 
-- [git-extras](https://formulae.brew.sh/formula/git-extras) Extra tools for Git 
-- [grip](https://formulae.brew.sh/formula/grip) Open git README.md in a browser (Use with -b option to auto open 
-brwser) 
-- [visual-studio-code](https://formulae.brew.sh/formula/visual-studio-code) VSCode IDE and test editor 
-- [python3](https://formulae.brew.sh/formula/python) Pyhton 3 
+- [git](https://formulae.brew.sh/formula/git) Git command line
+- [gh](https://formulae.brew.sh/formula/gh) GitHub command line
+- [git-flow](https://formulae.brew.sh/formula/git-flow) Git tools for Flow workflows
+- [git-extras](https://formulae.brew.sh/formula/git-extras) Extra tools for Git
+- [grip](https://formulae.brew.sh/formula/grip) Open git README.md in a browser (Use with -b option to auto open
+  brwser)
+- [visual-studio-code](https://formulae.brew.sh/formula/visual-studio-code) VSCode IDE and test editor
+- [python3](https://formulae.brew.sh/formula/python) Pyhton 3
 - [pyenv](https://formulae.brew.sh/formula/pyenv) Python environment manager
 - [iterm2](https://formulae.brew.sh/formula/iterm2) Terminal replacement with beter ASCII character display
-- [neofetch](https://formulae.brew.sh/formula/neofetch) System Info
-- [trash](https://formulae.brew.sh/formula/trash) Trash files
-- [tree](https://formulae.brew.sh/formula/tree) Visualize filesytem hierarchy
 - [wget](https://formulae.brew.sh/formula/wget) Tools to get stuff
 - [node](https://formulae.brew.sh/formula/node) Node Development tools
-- [npm](https://formulae.brew.sh/formula/npm) Packagmen managment 
-- [bpytop](https://formulae.brew.sh/formula/bpytop) Activity monitor
+- [npm](https://formulae.brew.sh/formula/npm) Packagmen managment
+
+## Standard Apps
+
+- [MAS](https://formulae.brew.sh/formula/mas) CLI tool to install Mac App Store apps
+- [Cask](https://formulae.brew.sh/formula/cask)
+- [Google Chrome](goggle.com) Google Chrome
+- [Dropbox](dropbox.com) Dropbox
+- [Slack](slack.com) Slack
+- [Zoom](zoom.com) Zoom
+- [Microsoft Office 365](office365.com) Office
+- [Draw.io](draw.io) Diagramming
+- [Transmission](https://transmissionbt.com) Torrent Client]
+- [VLC](vlc.com) VLC Media Player
+- [Discord](discore.com)
+- [Barrier](https://formulae.brew.sh/formula/barrier) Share mouse and keyboard across devices
+- [graphviz](graphviz.com) Graphing Library
+- [Lastpass-cli](https://formulae.brew.sh/formula/lastpass-cli) Command line tools for Lastpass
+- [speedtest-cli](https://formulae.brew.sh/formula/speedtest-cli) Command line speed test utility
+- [wifi-password](https://formulae.brew.sh/formula/wifi-password) Display current SSID password
+- [btop](https://formulae.brew.sh/formula/btop) Activity monitor
+- [nmap](https://formulae.brew.sh/formula/nmap) Network map
 - [byobu](https://formulae.brew.sh/formula/byobu) Terminal super tools
-- [mas](https://formulae.brew.sh/formula/mas) CLI tool to install Mac App Store apps
+- [trash](https://formulae.brew.sh/formula/trash) Trash files
+- [tree](https://formulae.brew.sh/formula/tree) Visualize filesytem hierarchy
+- [neofetch](https://formulae.brew.sh/formula/neofetch) System Info
 
-## Standard Apps  
-
-- [google-chrome](goggle.com) Google Chrome
-- [dropbox](dropbox.com) Dropbox
-- [slack](slack.com) Slack
-- [zoom](zoom.com) Zoom
-- [microsoft-office](office365.com) Office
-- [draw.io](draw.io) Diagramming
-- [transmission](https://transmissionbt.com) Torrent Client]
-- [vlc](vlc.com) VLC Media Player
-- discord
-- lastpass-cli
-- nmap
-- barrier
-- speedtest-cli
-- cask 
-- graphviz
-- wifi-password
-
-## Mac App Store App  s
+## Mac App Store Apps
 
 - Pixlemator pro
 - Mirror Magnet
@@ -55,6 +56,22 @@ brwser)
 - Screenium 3
 - Cinch
 - Graphic
-- Vector 3 - Record & Edit Audio 
+- Vector 3 - Record & Edit Audio
 
 ## Common Settings
+
+- Require password as soon as screensaver or sleep mode starts
+- Show filename extensions by default
+- Enable tap-to-click
+- Allow text selection in Quick Look
+- Expand the save panel by default
+- Automatically quit printer app once the print jobs complete
+- Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs)
+- Enable subpixel font rendering on non-Apple LCDs
+- Show icons for hard drives, servers, and removable media on the desktop
+- Use column view in all Finder windows by default
+- Avoid the creation of .DS_Store files on network volumes
+- Speed up Mission Control animations and grouping windows by application
+- Setting Dock to auto-hide and removing the auto-hiding delay
+- Prevent Time Machine from prompting to use new hard drives as backup volume
+- Disable the sudden motion sensor as its not useful for SSDs
