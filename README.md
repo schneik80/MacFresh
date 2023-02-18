@@ -20,7 +20,6 @@ Install script to setup common software and settings
 - [node](https://formulae.brew.sh/formula/node) : Node Development tools
 - [npm](https://formulae.brew.sh/formula/npm) : Package management
 - [ctop](https://formulae.brew.sh/formula/ctop) : Docker container monitor
-- [lazydocker](https://formulae.brew.sh/formula/lazydocker) : Docker Terminal
 
 ## Standard Apps
 
