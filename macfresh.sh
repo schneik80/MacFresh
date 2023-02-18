@@ -29,21 +29,15 @@ DevAPPS=(
     python3
     pyenv
     iterm2
-    neofetch
-    trash
-    tree
     wget
     node
     npm
-    bpyptop
-    byobu
-    mas
 )
-echo "Installing DEV Apps..."
+echo "Installing DEV apps..."
 brew install ${DevAPPS[@]}
 
 # Configure Git
-echo "Git config"
+echo "Configuring Git"
 git config --global user.name "Kevin Schneider"
 git config --global user.email schneik80@gmail.com
 git config --global help.autocorrect 1
@@ -51,13 +45,14 @@ git config --global help.autocorrect 1
 git config --global core.editor "nano"
 # create the source folder
 mkdir ~/Source
-alias top="bpytop"
 
 #Clear Screen
 clear
 
 # Install Standard apps
 MyAPPS=(
+    mas
+    cask
     google-chrome
     dropbox
     slack
@@ -67,17 +62,26 @@ MyAPPS=(
     transmission
     vlc
     discord
-    lastpass-cli
-    nmap
     barrier
-    speedtest-cli
-    cask
     graphviz
+    lastpass-cli
+    speedtest-cli
     wifi-password
-
+    btop
+    nmap
+    byobu
+    trash
+    tree
+    neofetch
 )
-echo "Installing office Apps..."
+
+echo "Installing general apps..."
 brew install ${MyAPPS[@]}
+
+alias top="btop"
+
+#Clear Screen
+clear
 
 # Install Mac App Store apps
 #   1289583905  Pixlemator pro
@@ -107,13 +111,13 @@ MacAPPS=(
     404705039
     639386679
 )
-echo "Installing MAC App Store Apps..."
+echo "Installing MAC App Store apps..."
 mas install ${MacAPPS[@]}
-
+sc
 #Clear Screen
 clear
 
-echo "Cleaning up..."
+echo "Cleaning up and setting default system settings"
 brew cleanup
 
 # Require password as soon as screensaver or sleep mode starts
