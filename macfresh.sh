@@ -35,7 +35,7 @@ DevAPPS=(
     wget
     node
     npm
-    htop
+    bpyptop
     byobu
     mas
 )
@@ -51,6 +51,7 @@ git config --global help.autocorrect 1
 git config --global core.editor "nano"
 # create the source folder
 mkdir ~/Source
+alias top="bpytop"
 
 #Clear Screen
 clear
