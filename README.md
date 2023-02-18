@@ -4,44 +4,46 @@ Install script to setup common software and settings
 
 ## Dev Apps
 
-- [git](https://formulae.brew.sh/formula/git) Git command line
-- [gh](https://formulae.brew.sh/formula/gh) GitHub command line
-- [git-flow](https://formulae.brew.sh/formula/git-flow) Git tools for Flow workflows
-- [git-extras](https://formulae.brew.sh/formula/git-extras) Extra tools for Git
-- [grip](https://formulae.brew.sh/formula/grip) Open git README.md in a browser (Use with -b option to auto open
+- [git](https://formulae.brew.sh/formula/git) : Git command line
+- [gh](https://formulae.brew.sh/formula/gh) : GitHub command line
+- [git-flow](https://formulae.brew.sh/formula/git-flow) : Git tools for Flow workflows
+- [git-extras](https://formulae.brew.sh/formula/git-extras) : Extra tools for Git
+- [grip](https://formulae.brew.sh/formula/grip) : Open git README.md in a browser (Use with -b option to auto open
   browser)
-- [visual-studio-code](https://formulae.brew.sh/formula/visual-studio-code) VSCode IDE and test editor
-- [python3](https://formulae.brew.sh/formula/python) Python 3
-- [pyenv](https://formulae.brew.sh/formula/pyenv) Python environment manager
-- [iterm2](https://formulae.brew.sh/formula/iterm2) Terminal replacement with better ASCII character display
-- [wget](https://formulae.brew.sh/formula/wget) Tools to get stuff
-- [node](https://formulae.brew.sh/formula/node) Node Development tools
-- [npm](https://formulae.brew.sh/formula/npm) Package management
+- [markdown-service-tools](https://formulae.brew.sh/formula/markdown-service-tools) : Collection of MACOS services for Markdown-formatted text
+- [glow](https://formulae.brew.sh/formula/glow) : Command line markdown with Pizzazz!
+- [visual-studio-code](https://formulae.brew.sh/formula/visual-studio-code) : VSCode IDE and test editor
+- [python3](https://formulae.brew.sh/formula/python) : Python 3
+- [pyenv](https://formulae.brew.sh/formula/pyenv) : Python environment manager
+- [iterm2](https://formulae.brew.sh/formula/iterm2) : Terminal replacement with better ASCII character display
+- [wget](https://formulae.brew.sh/formula/wget) : Tools to get stuff
+- [node](https://formulae.brew.sh/formula/node) : Node Development tools
+- [npm](https://formulae.brew.sh/formula/npm) : Package management
 
 ## Standard Apps
 
-- [MAS](https://formulae.brew.sh/formula/mas) CLI tool to install Mac App Store apps
-- [Cask](https://formulae.brew.sh/formula/cask)
-- [Google Chrome](goggle.com) Google Chrome
-- [Dropbox](dropbox.com) Dropbox
-- [Slack](slack.com) Slack
-- [Zoom](zoom.com) Zoom
-- [Microsoft Office 365](office365.com) Office
-- [Draw.io](draw.io) Diagramming
-- [Transmission](https://transmissionbt.com) Torrent Client]
-- [VLC](vlc.com) VLC Media Player
-- [Discord](discore.com)
-- [Barrier](https://formulae.brew.sh/formula/barrier) Share mouse and keyboard across devices
-- [graphviz](graphviz.com) Graphing Library
-- [Lastpass-cli](https://formulae.brew.sh/formula/lastpass-cli) Command line tools for Lastpass
-- [speedtest-cli](https://formulae.brew.sh/formula/speedtest-cli) Command line speed test utility
-- [wifi-password](https://formulae.brew.sh/formula/wifi-password) Display current SSID password
-- [btop](https://formulae.brew.sh/formula/btop) Activity monitor
-- [nmap](https://formulae.brew.sh/formula/nmap) Network map
-- [byobu](https://formulae.brew.sh/formula/byobu) Terminal super tools
-- [trash](https://formulae.brew.sh/formula/trash) Trash files
-- [tree](https://formulae.brew.sh/formula/tree) Visualize filesytem hierarchy
-- [neofetch](https://formulae.brew.sh/formula/neofetch) System Info
+- [MAS](https://formulae.brew.sh/formula/mas) : CLI tool to install Mac App Store apps
+- [Cask](https://formulae.brew.sh/formula/cask) : Brew tools for App instals
+- [Google Chrome](goggle.com) : Google Chrome
+- [Dropbox](dropbox.com) : Dropbox
+- [Slack](slack.com) : Slack
+- [Zoom](zoom.com) : Zoom
+- [Microsoft Office 365](office365.com) : Office
+- [Draw.io](draw.io) : Diagramming
+- [Transmission](https://transmissionbt.com) : Torrent Client
+- [VLC](vlc.com) : VLC Media Player
+- [Discord](discore.com) : Voice and Chat
+- [Barrier](https://formulae.brew.sh/formula/barrier) : Share mouse and keyboard across devices
+- [graphviz](graphviz.com) : Graphing Library
+- [Lastpass-cli](https://formulae.brew.sh/formula/lastpass-cli) : Command line tools for Lastpass
+- [speedtest-cli](https://formulae.brew.sh/formula/speedtest-cli) : Command line speed test utility
+- [wifi-password](https://formulae.brew.sh/formula/wifi-password) : Display current SSID password
+- [btop](https://formulae.brew.sh/formula/btop) : Activity monitor
+- [nmap](https://formulae.brew.sh/formula/nmap) : Network map
+- [byobu](https://formulae.brew.sh/formula/byobu) : Terminal super tools
+- [trash](https://formulae.brew.sh/formula/trash) : Trash files
+- [tree](https://formulae.brew.sh/formula/tree) : Visualize filesystem hierarchy
+- [neofetch](https://formulae.brew.sh/formula/neofetch) : System Info
 
 ## Mac App Store Apps
 

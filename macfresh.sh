@@ -25,6 +25,8 @@ DevAPPS=(
     git-flow
     git-extras
     grip
+    markdown-service-tools
+    glow
     visual-studio-code
     python3
     pyenv
