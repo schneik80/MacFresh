@@ -19,7 +19,7 @@ brwser)
 - [wget](https://formulae.brew.sh/formula/wget) Tools to get stuff
 - [node](https://formulae.brew.sh/formula/node) Node Development tools
 - [npm](https://formulae.brew.sh/formula/npm) Packagmen managment 
-- [htop](https://formulae.brew.sh/formula/htop) Activity monitor
+- [bpytop](https://formulae.brew.sh/formula/bpytop) Activity monitor
 - [byobu](https://formulae.brew.sh/formula/byobu) Terminal super tools
 - [mas](https://formulae.brew.sh/formula/mas) CLI tool to install Mac App Store apps
 
