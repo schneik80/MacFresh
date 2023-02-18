@@ -66,6 +66,7 @@ MyAPPS=(
     discord
     barrier
     graphviz
+    pandock
     lastpass-cli
     speedtest-cli
     wifi-password
@@ -74,6 +75,8 @@ MyAPPS=(
     byobu
     trash
     tree
+    ncdu
+    lnav
     neofetch
 )
 

@@ -35,6 +35,7 @@ Install script to setup common software and settings
 - [Discord](discore.com) : Voice and Chat
 - [Barrier](https://formulae.brew.sh/formula/barrier) : Share mouse and keyboard across devices
 - [graphviz](graphviz.com) : Graphing Library
+- [pandoc](pandoc.com) : Document utilities
 - [Lastpass-cli](https://formulae.brew.sh/formula/lastpass-cli) : Command line tools for Lastpass
 - [speedtest-cli](https://formulae.brew.sh/formula/speedtest-cli) : Command line speed test utility
 - [wifi-password](https://formulae.brew.sh/formula/wifi-password) : Display current SSID password
@@ -43,6 +44,8 @@ Install script to setup common software and settings
 - [byobu](https://formulae.brew.sh/formula/byobu) : Terminal super tools
 - [trash](https://formulae.brew.sh/formula/trash) : Trash files
 - [tree](https://formulae.brew.sh/formula/tree) : Visualize filesystem hierarchy
+- [ndcu](https://formulae.brew.sh/formula/ndcu) : Disk usage reports and large file navigation
+- [lnav](https://formulae.brew.sh/formula/lnav) : Log file navigation
 - [neofetch](https://formulae.brew.sh/formula/neofetch) : System Info
 
 ## Mac App Store Apps
