@@ -45,11 +45,11 @@ Run with system privileges:
 - [Draw.io](draw.io) : Diagramming
 - [Transmission](https://transmissionbt.com) : Torrent Client
 - [VLC](vlc.com) : VLC Media Player
-- [Discord](discore.com) : Voice and Chat
-- [Barrier](https://formulae.brew.sh/formula/barrier) : Share mouse and keyboard across devices
+- [discord](discore.com) : Voice and Chat
+- [barrier](https://formulae.brew.sh/formula/barrier) : Share mouse and keyboard across devices
 - [graphviz](graphviz.com) : Graphing Library
 - [pandoc](pandoc.com) : Document utilities
-- [Lastpass-cli](https://formulae.brew.sh/formula/lastpass-cli) : Command line tools for Lastpass
+- [lastpass-cli](https://formulae.brew.sh/formula/lastpass-cli) : Command line tools for Lastpass
 - [speedtest-cli](https://formulae.brew.sh/formula/speedtest-cli) : Command line speed test utility
 - [wifi-password](https://formulae.brew.sh/formula/wifi-password) : Display current SSID password
 - [btop](https://formulae.brew.sh/formula/btop) : Activity monitor
