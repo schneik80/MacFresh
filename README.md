@@ -1,6 +1,16 @@
 # MacFresh
 
-Install script to setup common software and settings
+Install script to quickly setup common software and settings on Mac OS. Heavily uses [Homebrew "brew" Package Management](https://brew.sh/).
+
+### Instructions
+
+Copy [this script](https://raw.githubusercontent.com/schneik80/MacFresh/main/macfresh.sh) to a new Mac home directory.
+
+Ensure the script is marked as executable:
+`$ sudo chmod 757 ./macfresh.sh`
+
+Run with system privileges:  
+`$ sudo ./macfresh.sh`
 
 ## Dev Apps
 
