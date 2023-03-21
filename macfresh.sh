@@ -183,6 +183,13 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 # Disable the sudden motion sensor as its not useful for SSDs
 sudo pmset -a sms 0
 
+# Set Outlook to be default mail client
+pip install pyobjc-framework-CoreServices
+python3
+from CoreServices import LSSetDefaultHandlerForURLScheme
+LSSetDefaultHandlerForURLScheme("mailto", "com.microsoft.Outlook")
+exit()
+
 #Clear Screen
 clear
 
