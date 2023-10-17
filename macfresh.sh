@@ -1,24 +1,31 @@
 #!/bin/zsh
-echo "Starting setup"
+echo "=== Starting setup ==="
 
-# Install Xcode command line tools
-echo "Installing Xcode command line tools..."
+#Install Xcode command line tools
+echo "=== Installing Xcode command line tools ==="
 xcode-select —-install
 
-# Check for Homebrew to be present, install if it's missing
-if test ! $(which brew); then
-    echo "Installing homebrew..."
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+read -p "Press any key after Xcode is complete"
+echo "=== Xcode complete ==="
+
+#Check for Homebrew to be present, install if it's missing
+echo "=== Check for brew ==="
+if [[ $(command -v brew) == "" ]]; then
+    echo "Installing Hombrew"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+else
+    echo "Updating Homebrew"
+    brew update
+    brew upgrade
 fi
+echo "=== brew complete ==="
 
-# Install Zsh & Oh My Zsh
-echo "Installing Oh My ZSH..."
-curl -L http://install.ohmyz.sh | sh
+#Install Zsh & Oh My Zsh
+echo "=== Installing Oh My ZSH ==="
+curl -L http://install.ohmyz.sh | shsudo
+echo "=== Zsh Complete ==="
 
-#Clear Screen
-clear
-
-# Install Development apps
+#Install Development apps
 DevAPPS=(
     git
     gh
@@ -37,26 +44,24 @@ DevAPPS=(
     ctop
 )
 
-echo "Installing DEV apps..."
+echo "=== Installing DEV apps ==="
 brew install ${DevAPPS[@]}
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-# Configure Git
-echo "Configuring Git"
+#Configure Git
+echo "=== Configuring Git ==="
 git config --global user.name "Kevin Schneider"
 git config --global user.email schneik80@gmail.com
 git config --global help.autocorrect 1
-#   use a sensible editor for git commit messages
+#Use a sensible editor for git commit messages
 git config --global core.editor "nano"
-# create the source folder
+#Create the source folder
 mkdir ~/Source
+echo "=== Git complete ==="
 
-#Clear Screen
-clear
-
-# Install Standard apps
+#Install Standard apps
 MyAPPS=(
     mas
     cask
@@ -65,13 +70,13 @@ MyAPPS=(
     slack
     zoom
     microsoft-office
-    draw.io
+    drawio
     transmission
     vlc
     discord
     barrier
     graphviz
-    pandock
+    pandoc
     lastpass-cli
     speedtest-cli
     wifi-password
@@ -86,13 +91,10 @@ MyAPPS=(
     neofetch
 )
 
-echo "Installing general apps..."
+echo "=== Installing general apps ==="
 brew install ${MyAPPS[@]}
 
 alias top="btop"
-
-#Clear Screen
-clear
 
 # Install Mac App Store apps
 #   1289583905  Pixlemator pro
@@ -122,15 +124,13 @@ MacAPPS=(
     404705039
     639386679
 )
-echo "Installing MAC App Store apps..."
+echo "=== Installing MAC App Store apps ===."
 mas install ${MacAPPS[@]}
-sc
-#Clear Screen
-clear
 
-echo "Cleaning up and setting default system settings"
+echo "=== Cleaning up and setting default system settings ==="
 brew cleanup
 
+echo "=== set MAC OS prefrences ==="
 # Require password as soon as screensaver or sleep mode starts
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
@@ -183,17 +183,9 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 # Disable the sudden motion sensor as its not useful for SSDs
 sudo pmset -a sms 0
 
-# Set Outlook to be default mail client
-pip install pyobjc-framework-CoreServices
-python3
-from CoreServices import LSSetDefaultHandlerForURLScheme
-LSSetDefaultHandlerForURLScheme("mailto", "com.microsoft.Outlook")
-exit()
+echo "=== Setup completed! ==="
 
-#Clear Screen
-clear
-
-echo "Mac setup completed!"
+read -p "Press any key to continue..."
 
 # Neofetch
 neofetch
