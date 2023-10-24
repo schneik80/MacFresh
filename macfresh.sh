@@ -42,6 +42,7 @@ DevAPPS=(
     node
     npm
     ctop
+    duti
 )
 
 echo "=== Installing DEV apps ==="
@@ -184,11 +185,15 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 sudo pmset -a sms 0
 
 # Set Outlook to be default mail client
-pip install pyobjc-framework-CoreServices
-python3
-from CoreServices import LSSetDefaultHandlerForURLScheme
-LSSetDefaultHandlerForURLScheme("mailto", "com.microsoft.Outlook")
-exit()
+# pip install pyobjc-framework-CoreServices
+# python3
+# from CoreServices import LSSetDefaultHandlerForURLScheme
+# LSSetDefaultHandlerForURLScheme("mailto", "com.microsoft.Outlook")
+# exit()
+
+# set vscode for markdown an python
+duti -s com.microsoft.VSCode .md all
+duti -s com.microsoft.VSCode .py all
 
 echo "=== Setup completed! ==="
 
