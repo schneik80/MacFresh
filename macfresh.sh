@@ -193,7 +193,16 @@ sudo pmset -a sms 0
 
 # set vscode for markdown an python
 duti -s com.microsoft.VSCode .md all
+duti -s com.microsoft.VSCode .mmd all
+duti -s com.microsoft.VSCode .mermaid all
+duti -s com.microsoft.VSCode .dot all
+duti -s com.microsoft.VSCode .sh all
+
 duti -s com.microsoft.VSCode .py all
+duti -s com.microsoft.VSCode .xml all
+
+duti -s com.microsoft.VSCode .nc all
+duti -s com.microsoft.VSCode .gcode all
 
 echo "=== Setup completed! ==="
 
