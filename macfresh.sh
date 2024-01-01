@@ -89,6 +89,7 @@ MyAPPS=(
     rename
     fzf
     byobu
+    ranger
     trash
     tree
     ncdu
