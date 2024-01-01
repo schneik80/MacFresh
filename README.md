@@ -70,17 +70,15 @@ Run with system privileges:
 
 ## Mac App Store Apps
 
-- Pixlemator pro
-- Mirror Magnet
+- Pixlemator pro - Image Editing
+- Mirror Magnet - Overly camera on screen
 - Caffeinated - Anti Sleep App
-- World Clock Pro
-- Xee³: Image Viewer and Browser
-- Ulysses | Writing App
+- Ulysses - Writing App
 - Yoink - Improved Drag and Drop
-- Archiver 3
-- Screenium 3
-- Cinch
-- Graphic
+- Archiver 3 - Work with file archives
+- Screenium 3 - Capture your screen as video
+- Cinch - Snap windows in different arrangements
+- Graphic - Vector Drawing
 - Vector 3 - Record & Edit Audio
 - Pixel - Image viewing
 - Lastpass Password Manager

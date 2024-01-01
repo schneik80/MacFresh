@@ -106,16 +106,15 @@ alias top="btop"
 # Install Mac App Store apps
 #   1289583905  Pixlemator pro
 #   1563698880  Mirror Magnet
-#   1362171212  Caffeinated - Anti Sleep App
+#   1362171212  Caffeinated
 #   858446756  World Clock Pro
-#   639764244  Xee³: Image Viewer and Browser
-#   1225570693  Ulysses | Writing App
-#   457622435  Yoink - Improved Drag and Drop
+#   1225570693  Ulysses
+#   457622435  Yoink
 #   1130783329  Archiver 3
 #   921553264  Screenium 3
 #   412529613  Cinch
 #   404705039  Graphic
-#   639386679  Vector 3 - Record & Edit Audio
+#   639386679  Vector 3
 #   1507782672 Pixea image viewer
 #   926036361 Lastpass Password App
 #   1295203466 Microsoft Remote Desktop
@@ -124,8 +123,6 @@ MacAPPS=(
     1289583905
     1563698880
     1362171212
-    858446756
-    639764244
     1225570693
     457622435
     1130783329
