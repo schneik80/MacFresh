@@ -73,6 +73,7 @@ MyAPPS=(
     microsoft-office
     drawio
     transmission
+    ffmpeg
     vlc
     discord
     barrier
@@ -81,8 +82,11 @@ MyAPPS=(
     lastpass-cli
     speedtest-cli
     wifi-password
+    raspberry-pi-imager
     btop
     nmap
+    rename
+    fzf
     byobu
     trash
     tree
