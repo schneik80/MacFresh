@@ -64,6 +64,7 @@ echo "=== Git complete ==="
 
 #Install Standard apps
 MyAPPS=(
+    cakebrew
     mas
     cask
     google-chrome
