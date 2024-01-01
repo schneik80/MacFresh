@@ -31,8 +31,6 @@ Run with system privileges:
 - [wget](https://formulae.brew.sh/formula/wget) : Tools to get stuff
 - [node](https://formulae.brew.sh/formula/node) : Node Development tools
 - [npm](https://formulae.brew.sh/formula/npm) : Package management
-- [ctop](https://formulae.brew.sh/formula/ctop) : Docker container monitor
-- [dtui](https://formulae.brew.sh/formula/duti) : Select default apps for documents and URL schemes on macOS
 
 ## Standard Apps
 
@@ -66,21 +64,26 @@ Run with system privileges:
 - [ndcu](https://formulae.brew.sh/formula/ndcu) : Disk usage reports and large file navigation
 - [lnav](https://formulae.brew.sh/formula/lnav) : Log file navigation
 - [dozer](https://formulae.brew.sh/formula/dozer) : MAC OS menubar manager
+- [ctop](https://formulae.brew.sh/formula/ctop) : Docker container monitor
+- [dtui](https://formulae.brew.sh/formula/duti) : Select default apps for documents and URL schemes on macOS
+- [lftp](https://formulae.brew.sh/formula/duti) : CLI ftp
+- [ncdu](https://formulae.brew.sh/formula/ncdu) : Drive Explorer
+- [hh](https://formulae.brew.sh/formula/hh) : Command history search
 - [neofetch](https://formulae.brew.sh/formula/neofetch) : System Info
 
 ## Mac App Store Apps
 
-- Pixlemator pro - Image Editing
-- Mirror Magnet - Overly camera on screen
-- Caffeinated - Anti Sleep App
-- Ulysses - Writing App
-- Yoink - Improved Drag and Drop
-- Archiver 3 - Work with file archives
-- Screenium 3 - Capture your screen as video
-- Cinch - Snap windows in different arrangements
-- Graphic - Vector Drawing
-- Vector 3 - Record & Edit Audio
-- Pixel - Image viewing
+- Pixlemator pro : Image Editing
+- Mirror Magnet : Overly camera on screen
+- Caffeinated : Anti Sleep App
+- Ulysses : Writing App
+- Yoink : Improved Drag and Drop
+- Archiver 3 : Work with file archives
+- Screenium 3 : Capture your screen as video
+- Cinch : Snap windows in different arrangements
+- Graphic : Vector Drawing
+- Vector 3 -: Record & Edit Audio
+- Pixel : Image viewing
 - Lastpass Password Manager
 - Microsoft Remote Desktop
 

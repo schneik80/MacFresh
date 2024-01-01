@@ -41,8 +41,7 @@ DevAPPS=(
     wget
     node
     npm
-    ctop
-    duti
+    
 )
 
 echo "=== Installing DEV apps ==="
@@ -95,6 +94,11 @@ MyAPPS=(
     ncdu
     lnav
     dozer
+    ctop
+    duti
+    lftp
+    ncdu
+    hh
     neofetch
 )
 
@@ -118,7 +122,7 @@ alias top="btop"
 #   1507782672 Pixea image viewer
 #   926036361 Lastpass Password App
 #   1295203466 Microsoft Remote Desktop
-
+ 
 MacAPPS=(
     1289583905
     1563698880
