@@ -6,11 +6,11 @@ Install script to quickly setup common software and settings on Mac OS. Heavily 
 
 Copy [this script](https://raw.githubusercontent.com/schneik80/MacFresh/main/macfresh.sh) to a new Mac home directory.
 
-Ensure the script is marked as executable:  
+Ensure the script is marked as executable:
 
 `$ sudo chmod 757 ./macfresh.sh`
 
-Run with system privileges:  
+Run with system privileges:
 
 `$ sudo ./macfresh.sh`
 
@@ -32,9 +32,11 @@ Run with system privileges:
 - [node](https://formulae.brew.sh/formula/node) : Node Development tools
 - [npm](https://formulae.brew.sh/formula/npm) : Package management
 - [ctop](https://formulae.brew.sh/formula/ctop) : Docker container monitor
+- [dtui](https://formulae.brew.sh/formula/duti) : Select default apps for documents and URL schemes on macOS
 
 ## Standard Apps
 
+- [Cakebrew](https://formulae.brew.sh/cask/cakebrew) : Gui for Brew
 - [MAS](https://formulae.brew.sh/formula/mas) : CLI tool to install Mac App Store apps
 - [Cask](https://formulae.brew.sh/formula/cask) : Brew tools for App instals
 - [Google Chrome](goggle.com) : Google Chrome
@@ -44,6 +46,7 @@ Run with system privileges:
 - [Microsoft Office 365](office365.com) : Office
 - [Draw.io](draw.io) : Diagramming
 - [Transmission](https://transmissionbt.com) : Torrent Client
+- [ffmpeg](https://formulae.brew.sh/formula/ffmpeg) : Mpeg utilities
 - [VLC](vlc.com) : VLC Media Player
 - [discord](discore.com) : Voice and Chat
 - [barrier](https://formulae.brew.sh/formula/barrier) : Share mouse and keyboard across devices
@@ -54,7 +57,10 @@ Run with system privileges:
 - [wifi-password](https://formulae.brew.sh/formula/wifi-password) : Display current SSID password
 - [btop](https://formulae.brew.sh/formula/btop) : Activity monitor
 - [nmap](https://formulae.brew.sh/formula/nmap) : Network map
+- [rename](https://formulae.brew.sh/formula/rename) : Rename
+- [fzf](https://formulae.brew.sh/formula/fzf) : Fuzzy find
 - [byobu](https://formulae.brew.sh/formula/byobu) : Terminal super tools
+- [ranger](https://formulae.brew.sh/formula/ranger) : A cli file manager
 - [trash](https://formulae.brew.sh/formula/trash) : Trash files
 - [tree](https://formulae.brew.sh/formula/tree) : Visualize filesystem hierarchy
 - [ndcu](https://formulae.brew.sh/formula/ndcu) : Disk usage reports and large file navigation
@@ -76,6 +82,9 @@ Run with system privileges:
 - Cinch
 - Graphic
 - Vector 3 - Record & Edit Audio
+- Pixel - Image viewing
+- Lastpass Password Manager
+- Microsoft Remote Desktop
 
 ## Common Settings
 

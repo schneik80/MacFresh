@@ -115,7 +115,10 @@ alias top="btop"
 #   921553264  Screenium 3
 #   412529613  Cinch
 #   404705039  Graphic
-#   639386679  Vector 3 - Record & Edit Audio 
+#   639386679  Vector 3 - Record & Edit Audio
+#   1507782672 Pixea image viewer
+#   926036361 Lastpass Password App
+#   1295203466 Microsoft Remote Desktop
 
 MacAPPS=(
     1289583905
@@ -130,6 +133,9 @@ MacAPPS=(
     412529613
     404705039
     639386679
+    1507782672
+    926036361
+    1295203466
 )
 echo "=== Installing MAC App Store apps ===."
 mas install ${MacAPPS[@]}
