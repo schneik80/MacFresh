@@ -67,7 +67,6 @@ Run with system privileges:
 - [ctop](https://formulae.brew.sh/formula/ctop) : Docker container monitor
 - [dtui](https://formulae.brew.sh/formula/duti) : Select default apps for documents and URL schemes on macOS
 - [lftp](https://formulae.brew.sh/formula/duti) : CLI ftp
-- [ncdu](https://formulae.brew.sh/formula/ncdu) : Drive Explorer
 - [hh](https://formulae.brew.sh/formula/hh) : Command history search
 - [neofetch](https://formulae.brew.sh/formula/neofetch) : System Info
 
