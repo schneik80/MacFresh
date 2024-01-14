@@ -97,7 +97,6 @@ MyAPPS=(
     ctop
     duti
     lftp
-    ncdu
     hh
     neofetch
 )
