@@ -11,7 +11,7 @@ echo "=== Xcode complete ==="
 #Check for Homebrew to be present, install if it's missing
 echo "=== Check for brew ==="
 if [[ $(command -v brew) == "" ]]; then
-    echo "Installing Hombrew"
+    echo "Installing Homebrew"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else
     echo "Updating Homebrew"
@@ -26,6 +26,7 @@ curl -L http://install.ohmyz.sh | shsudo
 echo "=== Zsh Complete ==="
 
 #Install Development apps
+echo "=== Installing DEV apps ==="
 DevAPPS=(
     git
     gh
@@ -44,11 +45,8 @@ DevAPPS=(
     
 )
 
-echo "=== Installing DEV apps ==="
 brew install ${DevAPPS[@]}
-
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+echo "=== Dev apps installed ==="
 
 #Configure Git
 echo "=== Configuring Git ==="
@@ -57,11 +55,15 @@ git config --global user.email schneik80@gmail.com
 git config --global help.autocorrect 1
 #Use a sensible editor for git commit messages
 git config --global core.editor "nano"
-#Create the source folder
+#clone sone zsh tools
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+#Create source folder
 mkdir ~/Source
 echo "=== Git complete ==="
 
 #Install Standard apps
+echo "=== Installing general apps ==="
 MyAPPS=(
     cakebrew
     mas
@@ -101,12 +103,13 @@ MyAPPS=(
     neofetch
 )
 
-echo "=== Installing general apps ==="
 brew install ${MyAPPS[@]}
+echo "=== General apps installed ==="
 
 alias top="btop"
 
 # Install Mac App Store apps
+echo "=== Installing MAC App Store apps ==="
 #   1289583905  Pixlemator pro
 #   1563698880  Mirror Magnet
 #   1362171212  Caffeinated
@@ -137,7 +140,7 @@ MacAPPS=(
     926036361
     1295203466
 )
-echo "=== Installing MAC App Store apps ===."
+
 mas install ${MacAPPS[@]}
 
 echo "=== Cleaning up and setting default system settings ==="
@@ -203,7 +206,7 @@ sudo pmset -a sms 0
 # LSSetDefaultHandlerForURLScheme("mailto", "com.microsoft.Outlook")
 # exit()
 
-# set vscode for markdown an python
+# set vscode for markdown and python
 duti -s com.microsoft.VSCode .md all
 duti -s com.microsoft.VSCode .mmd all
 duti -s com.microsoft.VSCode .mermaid all
