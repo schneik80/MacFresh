@@ -65,7 +65,6 @@ echo "=== Git complete ==="
 #Install Standard apps
 echo "=== Installing general apps ==="
 MyAPPS=(
-    cakebrew
     mas
     cask
     google-chrome
@@ -95,7 +94,6 @@ MyAPPS=(
     tree
     ncdu
     lnav
-    dozer
     ctop
     duti
     lftp
@@ -141,6 +139,7 @@ MacAPPS=(
     1295203466
 )
 
+echo "=== Installing MAC App Store apps ===."
 mas install ${MacAPPS[@]}
 
 echo "=== Cleaning up and setting default system settings ==="
