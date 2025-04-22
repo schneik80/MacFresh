@@ -73,6 +73,7 @@ MyAPPS=(
     zoom
     microsoft-office
     drawio
+    miro
     transmission
     ffmpeg
     vlc
