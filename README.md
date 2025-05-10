@@ -103,3 +103,27 @@ Run with system privileges:
 - Setting Dock to auto-hide and removing the auto-hiding delay
 - Prevent Time Machine from prompting to use new hard drives as backup volume
 - Disable the sudden motion sensor as its not useful for SSDs
+
+
+## pyenv
+
+export pyenv variables to .zprofile
+
+```
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zprofile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zprofile
+echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.profile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.profile
+echo 'eval "$(pyenv init --path)"' >> ~/.profile
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+This comes directly from the provided ~/.pyenv/README so I guess it should have been
+
+```
+
+install python
+
+```
+pyenv install 3.13.3 or latest
+pyenv global
+```
